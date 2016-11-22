@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [ "es6", "dom"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "mapRoot": "./",
+    "sourceMap": true,
+    "outDir": "dist",
+    "target": "es5"
+  },
+  "files": [
+    "index.ts"
+  ]
+}
