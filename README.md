@@ -17,3 +17,10 @@ Now over at your apps root folder just install it with `npm link name-of-your-li
 
 If you've published your library already to npm's registry, you should be fine with simply running:
 `npm install --save name-of-your-library`. 
+
+## Unit Testing
+In order to run unit-tests create those in feature-oriented style next to the to be tested items inside
+the `src` folder. Make sure the files end with `*.spec.ts`.
+
+To run the unit tests run:
+`npm test`
