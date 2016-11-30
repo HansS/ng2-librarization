@@ -1,13 +1,18 @@
 {
   "name": "ng2-librarization",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A seed for an Angular 2 library",
   "main": "index.js",
   "author": "Vildan Softic <zewa666@google.com>",
   "license": "MIT",
   "keywords": [
-    "angular", "angular2", "ng2", "3rd-party",
-    "library", "custom-library", "seed"
+    "angular",
+    "angular2",
+    "ng2",
+    "3rd-party",
+    "library",
+    "custom-library",
+    "seed"
   ],
   "dependencies": {
     "@angular/common": "^2.2.1",
@@ -18,11 +23,28 @@
     "@angular/platform-browser-dynamic": "^2.2.1",
     "rxjs": "5.0.0-beta.12",
     "ts-node": "^1.7.0",
-    "typescript": "^2.0.10",
     "zone.js": "^0.6.21"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/zewa666/ng2-librarization"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.38",
+    "es6-shim": "^0.35.1",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.8.0",
+    "phantomjs-prebuilt": "^2.1.13",
+    "raw-loader": "^0.5.1",
+    "ts-loader": "^1.2.2",
+    "typescript": "^2.0.10",
+    "webpack": "^2.1.0-beta.25"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js"
   }
 }
