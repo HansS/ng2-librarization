@@ -1,5 +1,5 @@
-import {NgModule} from '@angular/core';
-import {DemoComponent} from './demo.component';
+import { NgModule } from '@angular/core';
+import { DemoComponent } from './demo.component';
 
 @NgModule({
   declarations: [

@@ -1,5 +1,5 @@
 import { By } from '@angular/platform-browser';
-import { 
+import {
   async,
   TestBed,
   ComponentFixture
