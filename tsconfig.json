@@ -10,8 +10,9 @@
     "outDir": "dist",
     "target": "es5"
   },
-  "files": [
-    "index.ts"
+  "include": [
+    "index.ts",
+    "src/**/*.ts"
   ],
   "exclude": [
     "node_modules"
